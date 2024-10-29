@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Register</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        margin: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .form-container {
+        width: 30%;
+        margin: 10% auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .form-container h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+      }
+
+      .form-container input {
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .signup-btn {
+        padding: 10px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #122853;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .signup-btn:hover {
+        background-color: #122853;
+      }
+
+      .login-options {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+
+      .login-options a {
+        text-decoration: none;
+        color: #007bff;
+      }
+
+      .login-options a:hover {
+        text-decoration: underline;
+      }
+
+      .social-login {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+
+      .social-login button {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 48%;
+      }
+
+      .facebook-btn {
+        background-color: #3b5998;
+        color: #fff;
+      }
+
+      .google-btn {
+        background-color: #db4437;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation">
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+          <span class="nav-icon"></span>
+        </label>
+        <a href="#" class="logo"><span>Health</span>Care</a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Specilities</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="button">
+          <a href="signup.html" class="nav-button">Sign Up</a>
+          <a href="login.html" class="nav-button">Login</a>
+        </div>
+      </nav>
+    <div class="container"></div>
+      <div class="form-container">
+        <h2>Doctor Register</h2>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Mobile Number" />
+        <input type="password" placeholder="Create Password" />
+        <button class="signup-btn">Signup</button>
+        <div class="login-options">
+          <a href="#">Not a Doctor?</a>
+          <a href="login.html">Already have an account?</a>
+        </div>
+        <div class="social-login">
+          <button class="facebook-btn">Login with Facebook</button>
+          <button class="google-btn">Login with Google</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-company-box">
+            <a href="#" class="logo"><span>We</span>Care</a>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium quaerat ex odio dolores beatae ipsa distinctio
+              praesentium ad earum eaque?
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i>
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i>
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i>
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </div>
+          <div class="footer-link-box">
+            <strong>Company</strong>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-box">
+            <strong>Company</strong>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-box">
+            <strong>Company</strong>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-box">
+            <strong>Company</strong>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Made with By Akash</span>
+          <span>Copyright 2024 - HealthCare</span>
+        </div>
+      </footer>
+  </body>
+</html>
